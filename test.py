@@ -8,9 +8,9 @@ def test():
     settings = yaml.load(stream, yaml.SafeLoader)
 
     # Define the necessary variables
-    repo_owner = settings[]
-    repo_name = settings[]
-    github_token = settings[]
+    repo_owner = settings['repo_owner']
+    repo_name = settings['repo_name']
+    github_token = settings['github_token']
     secrets_file_path = "secrets.json"
 
     # Initialize the GitHubSecrets object
