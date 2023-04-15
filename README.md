@@ -7,7 +7,7 @@
         repo_name: "foo-mega-wooo-repo"
         github_token: "asdasdadaklfafafmamfa_donthopethisworks_asdadakkkosda"
 
-    - **secrets.json** file, contains the secrets you want to set:
+    - <b>secrets.json** file, contains the secrets you want to set:
         {
             "SHHH": "something_to_hide",
             "MMMM": "secret_text"
