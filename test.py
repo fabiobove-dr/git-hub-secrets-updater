@@ -8,8 +8,6 @@ import requests
 import json
 
 
-
-
 if __name__ == "__main__":
     # Load the oauth_settings.yml file
     stream = open('oauth_settings.yml', 'r')
@@ -20,7 +18,6 @@ if __name__ == "__main__":
     repo_name = settings['repo_name']
     github_token = settings['github_token']
     secrets_file_path = "secrets.json"
-
 
     # Construct API URL
     base_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/actions/secrets/public-key"
