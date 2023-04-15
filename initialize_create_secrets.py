@@ -2,11 +2,6 @@ import yaml
 import json
 import requests
 import base64
-import requests
-import json
-import requests
-import json
-
 
 if __name__ == "__main__":
     # Load the oauth_settings.yml file
